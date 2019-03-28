@@ -1,0 +1,256 @@
+body {
+	margin:0;
+}
+
+
+/* Header */
+
+header {
+	height: 100px;
+}
+
+.content-center {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.header-logo {
+	padding-top: 35px;
+	float: left;
+}
+
+.header-nav {
+	float: right;
+}
+
+.header-nav ul {
+	list-style-type: none;
+	padding-top: 20px;
+}
+
+.header-nav ul li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.header-nav ul li a {
+	font-size: 12pt;
+	letter-spacing: 1px;
+	line-height: 24px;
+	color: #191919;
+	font-family: "Montserrat";
+	font-weight: 500;
+	text-decoration: none;
+}
+
+/* After header */
+
+.entry-header {
+	height: 350px;
+	background-color: #3e3e3e;
+}
+
+h1 {
+	font-size: 38pt;
+	letter-spacing: 0px;
+	line-height: 48px;
+	color: #ffffff;
+	font-family: "Montserrat";
+	font-weight: 500;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.text-in-header p {
+	font-size: 18pt;
+	line-height: 42px;
+	color: #ffffff;
+	font-family: "Roboto Slab";
+	text-align: center;
+	margin-top: 30px;
+}
+
+/* Numbers section */
+
+.numbers {
+	height: 240px;
+	background-color: #10c9c3;
+}
+
+.numbers-item {
+	padding-top: 90px;
+	float: left;
+	margin-right: 145px;
+}
+
+.numbers-item img {
+	margin-right: 30px;
+	padding-top: 10px;
+}
+
+.numbers-item p {
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	color: rgba(255, 255, 255, 255);
+	text-align: left;
+}
+
+.numbers-item p:first-child {
+	font-size: 18pt;
+	margin-bottom: 10px;
+}
+
+.numbers-item p:last-child {
+	font-size: 12pt;
+}
+
+.number-item-1 {
+	float: left;
+}
+
+.number-item-2 {
+	float: right;
+}
+
+/* About me section */
+
+h2 {
+	font-family: "Montserrat";
+	font-size: 28pt;
+	color: rgba(23, 23, 23, 255);
+	text-align: left;
+}
+
+.about-me-left-block {
+	float: left;
+	background-color: #e1e1e1;
+	width: 50%;
+	height: 570px;
+}
+
+.about-me-right-block {
+	float: left;
+	width: 50%;
+	height: 570px;
+	background-color: #f5f5f5;
+}
+
+.about-me-right-block h2 {
+	padding: 100px 0 0 90px;
+}
+
+.about-me-right-block p {
+	font-family: "Roboto Slab" !important;
+	font-size: 14pt;
+	color: rgba(120, 120, 120, 255);
+	text-align: left;
+	padding: 10px 0 0 90px;
+	margin-right: 80px;
+}
+
+.about-me-right-block img {
+	padding: 30px 0 0 90px;
+}
+
+/* Need a project section */
+
+.need-a-project {
+	background-color: #ffffff;
+}
+
+.need-a-project p {
+	font-family: "Roboto Slab" !important;
+	font-size: 14pt;
+	color: rgba(120, 120, 120, 255);
+	text-align: center;
+	line-height: 30px;
+	padding-top: 30px;
+}
+
+.need-a-project h2 {
+	text-align: center;
+}
+
+.project-text {
+	padding-top: 80px;
+}
+
+div.button-project {
+	text-align: center;
+}
+
+div.button-project button {
+	background-color: #39b4af;
+	padding: 20px 50px;
+	border: none;
+	font-size: 12pt;
+	color: #fff;
+	font-family: "Roboto Slab" !important;
+	margin: 40px 0 120px 0;
+}
+
+/* Footer section */
+
+footer {
+	background-color: #141414;
+	height: 300px;
+}
+
+.header-footer {
+	color: #fff;
+	font-family: "Roboto Slab" !important;
+	text-align: left;
+}
+
+footer p {
+	font-family: "Roboto Slab" !important;
+	font-size: 14px;
+	color: rgba(188, 188, 188, 255);
+	text-align: left;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer ul li {
+	padding-top: 5px;
+}
+
+footer a {
+	font-family: "Roboto Slab" !important;
+	font-size: 14px;
+	color: rgba(188, 188, 188, 255);
+	text-align: left;
+	text-decoration: none;
+}
+
+.footer-item-1 {
+	float:left;
+	margin-right: 300px;
+}
+
+.footer-item-2 {
+	float:left;
+	margin-right: 170px;
+	padding-top: 15px;
+}
+
+.footer-item-3 {
+	float:left;
+	margin-right: 40px;
+}
+
+.footer-item-4 {
+	float:left;
+	margin-right: 160px;
+}
+
+.footer-item-5 {
+	float:left;
+}
+
+.footer-section {
+	padding-top: 100px;
+}
